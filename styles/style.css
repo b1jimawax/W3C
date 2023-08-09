@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text_left{
+    background-color: rgb(163, 199, 253);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.text_left p{
+    font-size: 15px;
+    width: 85%;
+    margin: auto;
+}
+.text_right p{
+    font-size: 15px;
+    width: 85%;
+    margin: auto;
+}
+.text_right{
+    background-color: rgb(230, 240, 255);
+    height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+/*le style de la navigation*/
+nav{
+    height: 90px;
+    
+}
+.nav_cont{
+    height: 80px;
+    display: flex;
+    align-items: end;
+    margin: auto;
+    width: 85%;
+}
+.logo_nav_top{
+    margin-right: 30px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+}
+li{
+    float: left;
+    margin: 12px;
+}
+/*le style de la bar de recherche*/
+.search_bar{
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 19px;
+    margin: 12px;
+}
+/*le style du boutton de connexion*/
+.sign-in{
+    display: flex;
+    gap: 10px;
+    margin-left: 25%;
+    align-items:center;
+}
+/*le style du premier contenu de la bannière*/
+.first{
+    margin-top:3%;
+}
+.first_cont{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.left{
+    width: 40%;
+    padding-top: 2%;
+    font-size:x-large;
+}
+.right{
+    width: 50%;
+}
+/*le style du boutton de la bannière*/
+button{
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    font-size: large;
+    border-radius: 100px;
+    border: 2px solid blue;
+}
+button:hover{
+    background-color: #005A9C;
+    border: 1px solid white;
+}
+a:hover{
+    color: #fff;
+}
+.second{
+    background-color: rgb(247, 247, 247);
+    margin-top: 7%;
+}
+.second_cont{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.second .left{
+    width: 60%;
+    padding-top: 4%;
+    font-size:x-large;
+}
+.second .right{
+    width: 40%;
+}
+.partenaires{
+    margin-top: 3%;
+}
+.content_p{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    padding-bottom: 30px;
+    justify-content: space-around;
+}
+.partenaires img{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+}
+.btn{
+    width: 85%;
+    margin: auto;
+    padding-bottom: 3%;
+}
+.tree{
+    margin-top: 3%;
+}
+.tree_cont{
+    width: 85%;
+    margin: auto;
+    display: flex;
+}
+.tree .left{
+    width: 50%;
+    font-size:large;
+}
+.tree .right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+section{
+    margin-top: 3%;
+}
+.left-two{
+    width: 50%;
+    font-size:large;
+    padding-left: 5%;
+}
+/*Debut du style de bloc bleu*/
+.four{
+    background-color: #005A9C;
+    color: #fff;
+    padding-bottom: 40px;
+}
+.four_haut{
+    background-color: 005A9C;
+    width: 85%;
+    padding: 40px 0px;
+    margin: auto;
+}
+.four_bas{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+}
+.bloc{
+    background-color:#fff;
+    width: 254px;
+    height: 311px;
+    color: black;
+    border-radius: 0.25rem;
+    padding: 1.25rem;
+}
+/*Debut du footer*/
+footer{
+    height: 100px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.f_haut{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+}
+.lien{
+    width: 70%;
+}
+.logos{
+    width: 10%;
+    display: flex;
+    justify-content: right;
+    gap:20px;
+}
+.f_bas{
+    display: flex;
+    padding-top: 1%;
+    width: 85%;
+    margin: auto;justify-content: space-between;
+}
